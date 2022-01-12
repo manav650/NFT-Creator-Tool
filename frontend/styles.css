@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: sans-serif;
+	min-height: 100vh;
+	color: #555;
+	/* background-color: #3f3646; */
+	background: #3A1C71;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	font-size: 18px;
+}
+
+h1{
+	padding: 40px 20px;
+	text-align: center;
+	background-color: #6a507b;
+	color: #ffffff;
+	font-size: 80px;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+form{
+	max-width: 400px;
+	margin: 0 auto;
+	position: relative;
+	top: 80px;
+	background-color: #ffffff;
+	padding: 25px;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+	color: #333;
+	display: flex;
+	flex-direction: column;
+}
+
+form h3{
+	margin-bottom: 40px;
+	border-bottom: thin solid #d4d4d4;
+	padding-bottom: 10px;
+}
+
+form input, form textarea{
+	padding: 15px;
+	margin-bottom: 30px;
+	font-size: 18px;
+	border-radius: 10px;
+	border: thin solid #d4d4d4;
+}
+
+form label{
+	display: inline-block;
+	padding-bottom: 10px;
+	padding-left: 7px;
+}
+
+form textarea{
+	min-height: 150px;
+	padding: 10px;
+}
+
+form input[type=submit]{
+	cursor: pointer;
+	transition: color 0.3s, background-color 0.3s;
+	background-color: #f3e7fa;
+}
+
+form input[type=submit]:hover{
+	background-color: #6a507b;
+	color: #fff;
+}
+
+form input:focus,
+form textarea:focus{
+	outline: none;
+}
+
+.success{
+	color: green;
+}
+
+.error{
+	color: red;
+}
+
+
+/* custom css */
+.address{
+	margin: 20px;
+	color: black;
+}
