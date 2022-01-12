@@ -5,6 +5,7 @@ Not everybody knows how to code and this project was created bearing in mind tha
 
 
 ## How it works
+This video will help - https://drive.google.com/file/d/1LctjRuZyIp5OX0k7SMkIfuXZdsLpgjSF/view?usp=sharing
 On the frontend, user needs to connect its metamask wallet and fill out the basic yet interactive form in webpage specifying his/her/their needs and specification from the smart contract.(eg. name, metadata, totalSupply, mintPrice, marketplace).
 
 Then, a file named "final_contract.vy" will be outputed or deployed to the selected network.
