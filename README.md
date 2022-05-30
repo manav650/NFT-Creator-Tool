@@ -1,5 +1,5 @@
 # NFT Creator Tool
-This tool is created a help an average person to launch their own NFT collection in form of smart contracts over blockchain without getting into complex coding.
+This tool is created to help any person to launch their own NFT collection in form of smart contracts over blockchain without getting into complex coding.
 Not everybody knows how to code and this project was created bearing in mind that simple fact.
 
 
